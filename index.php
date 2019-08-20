@@ -28,5 +28,7 @@ foreach ($usuarios as $row) { //percorre a lista de usuarios em cada linha
 
 }// acaba foreach de linha
 
+fclose($file);
+
  ?>
 
